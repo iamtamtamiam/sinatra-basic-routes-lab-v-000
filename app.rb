@@ -13,5 +13,9 @@ class App < Sinatra::Base
   get '/hometown' do
     "My hometown is The Old Dynasty: House Targaryen"
   end 
+  
+  get '/favorite-song' do 
+    "My favorite song is the Dragon Tales theme song"
+  end 
 
 end
