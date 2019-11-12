@@ -11,7 +11,7 @@ class App < Sinatra::Base
   end 
   
   get '/hometown' do
-    "My hometown is "
+    "My hometown is The Old Dynasty: House Targaryen"
   end 
 
 end
